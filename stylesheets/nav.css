@@ -8,7 +8,7 @@ Stylesheet for all navigation elements
 }
 
 body {
-  background-image: url("../res./bg-grayscale.jpg");
+  background-image: url("../res/bg-grayscale.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
