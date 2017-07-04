@@ -1,0 +1,12 @@
+/*
+Home page stylesheet
+*/
+
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url("../res/fonts/Montserrat-Regular.otf") format("opentype");
+}
+
+.jumbo {
+  
+}
