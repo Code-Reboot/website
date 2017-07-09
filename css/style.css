@@ -1,0 +1,261 @@
+/*
+MAIN STYLESHEET
+
+Font color: #2b2b2b
+Color 1: #515151;
+*/
+
+/* Fonts */
+
+@font-face {
+  font-family: brandon-grotesque-bold;
+  src: url("../fonts/Brandon_blk.otf") format("opentype");
+}
+
+@font-face {
+  font-family: brandon-grotesque-regular;
+  src: url("../fonts/Brandon_reg.otf") format("opentype");
+}
+
+/* Global Styles */
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Cards */
+
+.card {
+  color: #2b2b2b;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.card .container {
+  width: 50%;
+}
+
+.card h1 {
+  font-family: brandon-grotesque-bold;
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin-bottom: 30px;
+}
+
+.card h3 {
+  font-family: brandon-grotesque-regular;
+  font-size: 25px;
+}
+
+.card p {
+  font-family: brandon-grotesque-regular;
+  font-size: 25px;
+}
+
+/* Buttons */
+
+button {
+  font-family: brandon-grotesque-bold;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 18px 40px;
+  cursor: pointer;
+  border-radius: 3px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+#learn-more {
+  margin-right: 25px;
+}
+
+.button-1 {
+  background-color: white;
+  border: 3px solid white;
+  color: #2b2b2b;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition-duration: 0.15s;
+  webkit-transition-duration: 0.10s;
+  letter-spacing: 2px;
+}
+
+.button-1:hover {
+  background-color: #E5E7E9;
+  border: 3px solid #E5E7E9;
+}
+
+.button-2 {
+  background-color: #515151;
+  border: 3px solid #515151;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition-duration: 0.15s;
+  webkit-transition-duration: 0.10s;
+  letter-spacing: 2px;
+}
+
+.button-2:hover {
+  background-color: #424242;
+  border: 3px solid #424242;
+}
+
+.button-3 {
+  background-color: transparent;
+  border: 3px solid white;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition-duration: 0.15s;
+  webkit-transition-duration: 0.10s;
+  letter-spacing: 2px;
+}
+
+.button-3:hover {
+  color: #2b2b2b;
+  background-color: white;
+}
+
+
+button:focus {
+  outline: none;
+}
+
+/* Navigation Bar */
+
+header {
+  background: white;
+  font-family: brandon-grotesque-bold;
+  color: #2b2b2b;
+  padding-top: 30px;
+  min-height: 80px;
+  letter-spacing: 2px;
+}
+
+header #branding {
+  float: left;
+  letter-spacing: 0;
+}
+
+header #branding img {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  display: inline;
+  float: left;
+  margin-top: 4px;
+}
+
+header #branding h1 {
+  text-transform: uppercase;
+  margin: 0 0 0 60px;
+}
+
+header a {
+  color: #2b2b2b;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  transition: color 0.10s;
+  webkit-transition: color 0.10s;
+}
+
+header a:hover:not(#branding-link) {
+  color: #7f8c8d;
+}
+
+header li {
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header nav {
+  float: right;
+  margin-top: 12px;
+}
+
+/* Banner */
+
+#banner {
+  min-height: 700px;
+  background-image: url("../img/background.png");
+  background-repeat: no-repeat;
+  background-position: 0 -150px;
+  background-size: cover;
+  color: white;
+  line-height: 1;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#banner h1 {
+  font-family: brandon-grotesque-bold;
+  text-transform: uppercase;
+  font-size: 70px;
+  margin: 200px 0 0 0;
+  letter-spacing: 10px;
+}
+
+#banner p {
+  font-family: brandon-grotesque-regular;
+  font-size: 25px;
+  font-style: italic;
+}
+
+/* Footer */
+
+footer {
+  background-color: #2b2b2b;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  padding: 20px;
+  margin-top: 70px;
+}
+
+footer h3 {
+  font-family: brandon-grotesque-bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+footer p {
+  font-family: brandon-grotesque-regular;
+}
+
+footer nav li {
+  display: inline;
+  margin: 0 10px 0 10px;
+  font-family: brandon-grotesque-regular;
+}
+
+footer nav a {
+  text-decoration: none;
+  color: white;
+  border-bottom: 3px solid transparent;
+  transition-duration: 0.10s;
+  webkit-transition-duration: 0.10s;
+}
+
+footer nav a:hover {
+  border-bottom: 3px solid white;
+}
