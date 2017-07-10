@@ -46,18 +46,18 @@
         <form>
           <label for="student">Student Name</label>
           <br>
-          <input type="text" id="student" placeholder="Full Name">
+          <input type="text" id="student" placeholder="First and Last">
           <br>
           <label for="parent">Parent Name</label>
           <br>
-          <input type="text" id="parent" placeholder="Full Name">
+          <input type="text" id="parent" placeholder="First and Last">
           <br>
-          <label for="message">Message</label>
+          <label for="comments">Comments</label>
           <br>
-          <textarea id="message" placeholder="Message" style="height:200px"></textarea>
+          <textarea id="comments" placeholder="Additional Comments" style="height:200px"></textarea>
           <br>
           <button id="submit" type="button" value="Email" onclick="                                                        
-            window.location.replace('mailto:gpizarro@javaman.net?subject=I%20Would%20Like%20To%20Sign%20' + document.getElementById('student') + '%20Up&body=I would like to sign my child up for Code Reboot 2017.\nThank you,\n' + document.getElementById('parent'))
+            window.location.replace('mailto:gpizarro@javaman.net?subject=I%20Would%20Like%20To%20Sign%20' + document.getElementById('student').value + '%20Up&body=I would like to sign my child up for Code Reboot 2017.%0AMy comments:%OA' + document.getElementById('comments') + '%0AThank you,0A' + document.getElementById('parent').value)
           ">
         </form>
       </div>
