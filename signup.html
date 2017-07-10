@@ -57,7 +57,7 @@
           <textarea id="message" placeholder="Message" style="height:200px"></textarea>
           <br>
           <button id="submit" type="button" value="Email" onclick="                                                        
-            window.location.replace('mailto:gpizarro@javaman.net')                                                        
+            window.location.replace('mailto:gpizarro@javaman.net?subject=I%20Would%20Like%20To%20Sign%20' + document.getElementById('student') + '%20Up&body=I would like to sign my child up for Code Reboot 2017.\nThank you,\n' + document.getElementById('parent'))
           ">
         </form>
       </div>
