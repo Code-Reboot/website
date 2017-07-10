@@ -44,19 +44,25 @@
       <div class="container">
         <h1>Contact Us</h1>
         <form>
-          <label for="name">Name</label>
+          <label for="student">Student Name</label>
           <br>
-          <input type="text" name="name" placeholder="Name">
+          <input type="text" id="student" placeholder="Full Name">
           <br>
-          <label for="email">Email</label>
+          <label for="parent">Parent Name</label>
           <br>
-          <input type="text" name="email" placeholder="Email">
+          <input type="text" id="parent" placeholder="Full Name">
           <br>
           <label for="message">Message</label>
           <br>
-          <textarea name="message" placeholder="Message" style="height:200px"></textarea>
+          <textarea id="message" placeholder="Message" style="height:200px"></textarea>
           <br>
-          <input id="submit" type="submit" value="Submit">
+          <button id="submit" type="button" value="Email" onclick="
+            alert('Text1');
+            alert(document.getElementById('student').value)
+            alert(document.getElementById('parent').value)                                                        
+            alert(document.getElementById('message').value)                                                        
+            alert(document.getElementById('student').value)                                                        
+          ">
         </form>
       </div>
     </section>
