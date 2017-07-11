@@ -34,7 +34,6 @@ body {
   margin: 0;
   padding: 0;
   background-image: url("../img/background.png");
-  background-position: 0 60px;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -50,6 +49,7 @@ body {
 
 .card {
   color: white;
+  margin-top: 100px;
   margin-bottom: 200px;
   text-align: center;
 }
@@ -190,30 +190,34 @@ header nav {
 
 /* Banner */
 
-#banner {
+.banner {
   color: white;
   line-height: 1;
   text-align: center;
-  min-height: 700px;
+  min-height: 400px;
 }
 
-#banner h1 {
+.banner h1 {
   font-family: brandon-grotesque-bold;
   text-transform: uppercase;
   font-size: 70px;
-  margin: 260px 0 0 0;
+  margin: 280px 0 0 0;
   letter-spacing: 10px;
 }
 
-#banner p {
+.banner p {
   font-family: brandon-grotesque-regular;
   font-size: 25px;
   font-style: italic;
 }
 
-#banner .button {
+.banner .button {
   margin-left: 8px;
   margin-right: 8px;
+}
+
+#main-banner {
+  margin-bottom: 200px;
 }
 
 /* Footer */
