@@ -34,6 +34,7 @@ body {
   margin: 0;
   padding: 0;
   background-image: url("../img/background.png");
+  background-position: 0 60px;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -140,6 +141,8 @@ header {
   min-height: 80px;
   letter-spacing: 2px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05);
+  width: 100%;
+  position: fixed;
 }
 
 header #branding {
@@ -198,7 +201,7 @@ header nav {
   font-family: brandon-grotesque-bold;
   text-transform: uppercase;
   font-size: 70px;
-  margin: 200px 0 0 0;
+  margin: 260px 0 0 0;
   letter-spacing: 10px;
 }
 
@@ -222,6 +225,7 @@ footer {
   padding: 20px;
   margin-top: 70px;
   background-color: #0f1418;
+  border-top: 3px solid #5DADE2;
 }
 
 footer h3 {
