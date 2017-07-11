@@ -33,7 +33,10 @@ ul {
 body {
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
+  background-image: url("../img/background.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 #cost {
@@ -45,15 +48,14 @@ body {
 /* Cards */
 
 .card {
-  color: #2b2b2b;
-  margin-bottom: 100px;
+  color: white;
+  margin-bottom: 200px;
   text-align: center;
-  margin-top: 100px;
 }
 
 .card .container {
   width: 60%;
-  background-color: white;
+  background-color: rgba(0, 0, 0, 0.5);
   padding: 50px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
 }
@@ -112,23 +114,6 @@ body {
 }
 
 #button-2 {
-  background-color: #515151;
-  border: 3px solid #515151;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  transition-duration: 0.15s;
-  webkit-transition-duration: 0.10s;
-  letter-spacing: 2px;
-}
-
-#button-2:hover {
-  background-color: #424242;
-  border: 3px solid #424242;
-}
-
-#button-3 {
   background-color: transparent;
   border: 3px solid white;
   color: white;
@@ -140,7 +125,7 @@ body {
   letter-spacing: 2px;
 }
 
-#button-3:hover {
+#button-2:hover {
   color: #2b2b2b;
   background-color: white;
 }
@@ -203,14 +188,10 @@ header nav {
 /* Banner */
 
 #banner {
-  min-height: 700px;
-  background-image: url("../img/background.png");
-  background-repeat: no-repeat;
-  background-position: 0 -150px;
-  background-size: cover;
   color: white;
   line-height: 1;
   text-align: center;
+  min-height: 700px;
 }
 
 #banner h1 {
@@ -235,12 +216,12 @@ header nav {
 /* Footer */
 
 footer {
-  background-color: #2b2b2b;
   color: white;
   font-size: 25px;
   text-align: center;
   padding: 20px;
   margin-top: 70px;
+  background-color: #0f1418;
 }
 
 footer h3 {
