@@ -46,6 +46,70 @@ body {
   color: #2ecc71;
 }
 
+/* Form */
+
+#contact .container form {
+  text-align: left;
+}
+
+#contact label {
+  margin: 15px;
+  font-family: brandon-grotesque-bold;
+  font-size: 25px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+#contact input, textarea {
+  min-width: 90%;
+  max-width: 90%;
+  margin: 15px;
+  padding: 20px;
+  font-family: brandon-grotesque-regular;
+  font-size: 20px;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+  max-height: 500px;
+}
+
+#contact input:focus, textarea:focus {
+  outline: none;
+}
+
+#contact input::placeholder, textarea::placeholder {
+  font-family: brandon-grotesque-regular;
+  font-size: 20px;
+  color: white;
+}
+
+#contact #submit {
+  margin: 15px;
+  font-family: brandon-grotesque-bold;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 18px 40px;
+  cursor: pointer;
+  border-radius: 3px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  background-color: transparent;
+  border: 3px solid white;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition-duration: 0.15s;
+  webkit-transition-duration: 0.10s;
+  letter-spacing: 2px;
+}
+
+#contact #submit:hover {
+  color: #2b2b2b;
+  background-color: white;
+}
+
 /* Cards */
 
 .card {
