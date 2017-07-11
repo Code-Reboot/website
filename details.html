@@ -2,10 +2,10 @@
 <html>
   <head>
 
-    <!-- CODE CAMP SIGN UP PAGE -->
+    <!-- CODE CAMP PRICING PAGE -->
 
     <meta charset="utf-8">
-    <title>Code Reboot | Sign Up</title>
+    <title>Code Reboot | Details</title>
 
     <!-- CSS Files -->
 
@@ -44,34 +44,14 @@
 
     <section class="banner">
       <div class="container">
-        <h1>Sign Up</h1>
+        <h1>Details</h1>
       </div>
     </section>
 
-    <section class="card" id="contact">
+    <!-- Details -->
+
+    <section class="card">
       <div class="container">
-        <form>
-          <label for="student">Student Name</label>
-          <br>
-          <input type="text" id="student" placeholder="First and Last">
-          <br>
-          <label for="parent">Parent Name</label>
-          <br>
-          <input type="text" id="parent" placeholder="First and Last">
-          <br>
-          <label for="comments">Comments</label>
-          <br>
-          <textarea id="comments" placeholder="Additional Comments" style="height:200px"></textarea>
-          <br>
-          <button id="submit" type="button" value="Email" onclick="
-            if (document.getElementById('comments').value == '') {
-                window.location.replace('mailto:gpizarro@javaman.net?subject=I%20Would%20Like%20To%20Sign%20My%20Child%20Up&body=I would like to sign ' + document.getElementById('student').value + ' up for Code Reboot 2017.%0A %0AThank you, %0A' + document.getElementById('parent').value) + '%0A'
-            }
-            else {
-                window.location.replace('mailto:gpizarro@javaman.net?subject=I%20Would%20Like%20To%20Sign%20My%20Child%20Up&body=I would like to sign ' + document.getElementById('student').value + ' up for Code Reboot 2017.%0A %0AMy comments:%0A' + document.getElementById('comments').value + '%0A %0AThank you, %0A' + document.getElementById('parent').value) + '%0A'
-            }
-          ">Send Email</button>
-        </form>
       </div>
     </section>
 
