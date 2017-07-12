@@ -80,7 +80,7 @@ body {
 #contact input::placeholder, textarea::placeholder {
   font-family: brandon-grotesque-regular;
   font-size: 20px;
-  color: white;
+  color: #7f8c8d;
 }
 
 #contact #submit {
