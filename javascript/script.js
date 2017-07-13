@@ -11,6 +11,13 @@ $(document).ready(function() {
   $("#toggle-menu").click(function() {
     $("#dropdown").toggle();
   });
+
+  $("#learn-more a").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#course-details").offset().top
+    }, 1000);
+  });
+
 });
 
 $(window).resize(function() {
