@@ -110,6 +110,29 @@ body {
   background-color: white;
 }
 
+#contact input[type='file']::-webkit-file-upload-button {
+  text-decoration: none;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 15px 25px;
+  border: none;
+  border-bottom: 3px solid transparent;
+  transition-duration: 0.10s;
+  font-family: brandon-grotesque-bold;
+  webkit-transition-duration: 0.10s;
+  text-transform: uppercase;
+  cursor: pointer;
+  letter-spacing: 2px;
+}
+
+#contact input[type='file']::-webkit-file-upload-button:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+#contact input[type='file']::-webkit-file-upload-button:focus {
+  outline: none;
+}
+
 /* Cards */
 
 .card {
