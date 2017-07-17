@@ -109,7 +109,7 @@
           <br>
           <label for="liability-form">Waiver of Liability</label>
           <br>
-          <input type="file" id="liability-form">
+          <input type="file" id="liability-form" accept="application/pdf">
           <br>
           <label for="comments">Comments</label>
           <br>
@@ -122,21 +122,21 @@
             var age = document.getElementById('age')value;
             var allergies = document.getElementById('allergies')value;
             var comments = document.getElementById('comments')value;
-            
-            var mailto = 'mailto:gpizarro@javaman.net';                                                 
+
+            var mailto = 'mailto:gpizarro@javaman.net';
             var subject = 'subject=I Would Like To Sign My Child Up';
             var body = '&body=';
             body += 'I would like to sign " + student + " up for Code Reboot 2017.';
             body += ' ' + student + ' is ' + ' years old.';
             if(allergies != '') {
-                body += '%0A %0AAllergies: %0A' + allergies;  
-            }                                      
+                body += '%0A %0AAllergies: %0A' + allergies;
+            }
             if(comments != '') {
-                body += '%0A %0AMy Comments: %0A' + comments;                                   
+                body += '%0A %0AMy Comments: %0A' + comments;
             }
             body += '%0A %0AThank you, %0A' + parent + ' %0A' + phone;
-            
-            console.log(mailto + subject + body);                                             
+
+            console.log(mailto + subject + body);
             window.location.replace(mailto + subject + body);
           ">Send Email</button>
         </form>
