@@ -17,6 +17,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="./javascript/script.js"></script>
+    <script src="./javascript/signup.js"></script>
 
   </head>
   <body>
@@ -116,28 +117,7 @@
           <textarea id="comments" placeholder="Additional Comments" style="height:200px"></textarea>
           <br>
           <button id="submit" type="button" value="Email" onclick="
-            var parent = document.getElementById('parent').value;
-            var phone = document.getElementById('phone-number')value;
-            var student = document.getElementById('student')value;
-            var age = document.getElementById('age')value;
-            var allergies = document.getElementById('allergies')value;
-            var comments = document.getElementById('comments')value;
-
-            var mailto = 'mailto:gpizarro@javaman.net';
-            var subject = 'subject=I Would Like To Sign My Child Up';
-            var body = '&body=';
-            body += 'I would like to sign ' + student + ' up for Code Reboot 2017.';
-            body += ' ' + student + ' is ' + ' years old.';
-            if(allergies != '') {
-                body += '%0A %0AAllergies: %0A' + allergies;
-            }
-            if(comments != '') {
-                body += '%0A %0AMy Comments: %0A' + comments;
-            }
-            body += '%0A %0AThank you, %0A' + parent + ' %0A' + phone;
-
-            console.log(mailto + subject + body);
-            window.location.replace(mailto + subject + body);
+            submit()
           ">Send Email</button>
         </form>
       </div>
