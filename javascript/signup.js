@@ -2,11 +2,11 @@ function submit() {
   var button = document.getElementById('submit');
   button.onclick = function() {
     var parent = document.getElementById('parent').value;
-    var phone = document.getElementById('phone-number')value;
-    var student = document.getElementById('student')value;
-    var age = document.getElementById('age')value;
-    var allergies = document.getElementById('allergies')value;
-    var comments = document.getElementById('comments')value;
+    var phone = document.getElementById('phone-number').value;
+    var student = document.getElementById('student').value;
+    var age = document.getElementById('age').value;
+    var allergies = document.getElementById('allergies').value;
+    var comments = document.getElementById('comments').value;
 
     var mailto = 'mailto:gpizarro@javaman.net';
     var subject = 'subject=I Would Like To Sign My Child Up';
