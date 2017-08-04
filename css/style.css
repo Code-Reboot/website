@@ -46,6 +46,13 @@ body {
   color: #2ecc71;
 }
 
+#hardware-list {
+  font-family: brandon-grotesque-regular;
+  font-size: 25px;
+  display: inline-block;
+  text-align: left;
+}
+
 /* Form */
 
 #contact .container form {
