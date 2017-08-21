@@ -20,7 +20,9 @@ Color 1: #515151;
 /* Global Styles */
 
 #link {
-  color: gray;
+  font-family: brandon-grotesque-regular;
+  color: white;
+  margin: 20px;
   text-decoration: none;
 }
 
