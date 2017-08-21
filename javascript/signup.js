@@ -8,7 +8,7 @@ function submitEmail() {
     var allergies = document.getElementById('allergies').value;
     var comments = document.getElementById('comments').value;
 
-    var mailto = 'mailto:gpizarro@javaman.net';
+    var mailto = 'mailto:gabriel@codereboot.net';
     var subject = '?subject=I%20Would%20Like%20To%20Sign%20My%20Child%20Up';
     var body = '&body=';
     body += 'I would like to sign ' + student + ' up for Code Reboot 2017.';
