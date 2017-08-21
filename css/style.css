@@ -19,6 +19,11 @@ Color 1: #515151;
 
 /* Global Styles */
 
+#link {
+  color: gray;
+  text-decoration: none;
+}
+
 .container {
   width: 80%;
   margin: auto;
