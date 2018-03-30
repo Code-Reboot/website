@@ -82,6 +82,9 @@ body {
 
 #contact input:focus, textarea:focus {
   outline: none;
+  background-color: rgba(30, 34, 37, 1);
+  transition-duration: 0.15s;
+  webkit-transition-duration: 0.10s;
 }
 
 #contact input::placeholder, textarea::placeholder {
