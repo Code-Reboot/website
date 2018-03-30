@@ -19,6 +19,13 @@ Color 1: #515151;
 
 /* Global Styles */
 
+#link {
+  font-family: brandon-grotesque-regular;
+  color: white;
+  margin: 20px;
+  text-decoration: none;
+}
+
 .container {
   width: 80%;
   margin: auto;
@@ -34,6 +41,7 @@ body {
   margin: 0;
   padding: 0;
   background-image: url("../img/background.png");
+  background-color: #0f1418;
   background-position: center 90px;
   background-repeat: no-repeat;
   background-attachment: fixed;
